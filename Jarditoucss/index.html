@@ -1,46 +1,60 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="fr">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0 shrink-to-fit=no">
     <link rel="stylesheet" href="assets/css/style.css">
-    <title>Index</title>
+    <title>Jarditou</title>
+    <link rel="stylesheet" href="stylesheet.css">
 </head>
 <body>
-    <img src="src/img/jarditou_logo.jpg">
-         <p>La qualité depuis 70 ans</p>
-    <ol>
-        <ul>
-
-        <target><li><a href="index.html" title="index">Accueil</a>
-        <target><li><a href="Tableau.html" title="tableau">Tableau</a>
-        <target><li><a href="contact.html" title="contact">Contact</a>
-
-        </ul>
-    </ol>
-    <img src="src/img/promotion.jpg">
-    <article><p><big>Accueil</big></article>
-    <article><big>L'Entreprise</big></article>
-<ul>Notre entreprise familiale met tout son savoir faire à votre disposition dans le domaine du jardin et du paysagisme.</ul>
-
-<ul>Créée il y a 70 ans, notre entreprise vend fleurs, arbustres, matériel à main et motorisé.</ul>
-
-    <ul>Implantés à Amiens, nous intervenons dans tou le département de la Somme : Albert, Doullens, Péronne, Abbeville, Corbie</ul>
-
-    <article><big>Qualité</article</big></article>
-    <ul>Nous mettons à votre disposition un service personnalisé, avec 1 seul interlocuteur durant tout votre projet</ul>
-
-    <ul>Vous serez séduit par notre expertise, nos compétences et notre sérieux.</ul
-    <article><big>Devis Gratuit</big></article>
-    
-    <ul>Vous pouvez bien sûr contacter pour de plus amples informations ou pour une demande d'intervention. Vous souhaitez un devis ? Nous vous le reéalisons 
-        gratuitement.</ul>
-<ol>
+    <header>
+        <div class="entete">
+            <img class="logo" src="src/img/jarditou_logo.jpg" style="
+    width: 120px;">
+            <p class="slogan">Tout le jardin</p>
+        </div>
+        <nav>
             <ul>
-            <li><a href="https://www.jarditou.fr" title="Jarditou Page d'Accueil HTML">Mentions légales</a></li>
-            <li><section><a href="https://www.jarditou.fr" title="Jarditou Page d'Accueil HTML">Horaires</a></section></li>
-            <li><section><a href="https://www.jarditou.fr" title="Jarditou Page d'Accueil HTML">Plan du site</a></section></li>
+                <a href="index.html#Accueil" title="index">Accueil</a>
+                <a href="tableau.html#Tableau" title="tableau">Tableau</a>
+                <a href="contact.html#Contact" title="contact">Contact</a>
             </ul>
-        </ol>
+        </nav>
+    </header>
+
+    <img class="promo" src="src/img/promotion.jpg"
+    alt="promotion sur les lames de terrasse"
+    title="promotion sur les lames de terrasse">
+
+
+    <div class="col">
+        <div class="texte">
+            <h1>Accueil</h1>
+            <hr>
+            <h2>L'Entreprise</h2>
+            <p>Notre entreprise familiale met tout son savoir faire à votre disposition dans le domaine du jardin et du paysagisme.</p>
+            <p>Créée il y a 70 ans, notre entreprise vend fleurs, arbustres, matériel à main et motorisé.</p>
+            <p>Implantés à Amiens, nous intervenons dans tou le département de la Somme : Albert, Doullens, Péronne, Abbeville, Corbie</p>
+            <h2>Qualité</h2>
+            <p>Nous mettons à votre disposition un service personnalisé, avec 1 seul interlocuteur durant tout votre projet</p>
+            <p>Vous serez séduit par notre expertise, nos compétences et notre sérieux.</p>
+            <h2>Devis Gratuit</h2>
+            <p>Vous pouvez bien sûr contacter pour de plus amples informations ou pour une demande d'intervention. Vous souhaitez un devis ? Nous vous le reéalisons gratuitement.</p>
+        </div>
+        <aside> <!-- colonne de droite qui devra disparaître sur les appareils mobiles -->
+        [ colonne de droite ]
+        </aside>
+    </div>
+    <hr>               
+    <footer>
+        <nav>
+            <ul>
+                <a href="" title="Mentions légales">Mentions légales</a>
+                <a href="" title="Horaires">Horaires</a>
+                <a href="" title="Plan du site">Plan du site</a>
+            </ul>
+        </nav>
+    </footer>
 </body>

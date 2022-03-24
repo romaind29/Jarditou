@@ -1,30 +1,36 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="fr">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Contact</title>
+    <link rel="stylesheet" href="stylesheet.css">
 </head>
 <body>
-    <img src="src/img/jarditou_logo.jpg" alt="">
-    <p>La qualité depuis 70 ans</p>
-    <ol>
-        <ul>
-        <target><li><a href="index.html" title="index">Accueil</a></li>
-        <target><li><a href="Tableau.html" title="tableau">Tableau</a></li>
-        <target><li><a href="contact.html" title="contact">Contact</a></li>
-        </ul>
-    </ol>
+    <header>
+        <div class="entete">
+            <img class="logo" src="src/img/jarditou_logo.jpg" style="
+    width: 120px;">
+            <p class="slogan">Tout le jardin</p>
+        </div>
+        <nav>
+            <ul>
+                <a href="index.html#Accueil" title="index">Accueil</a>
+                <a href="tableau.html#Tableau" title="tableau">Tableau</a>
+                <a href="contact.html#Contact" title="contact">Contact</a>
+            </ul>
+        </nav>
+    </header>
 
 
-    <img src="src/img/promotion.jpg" alt="promotion" title="logo promotion">
+    <img src="src/img/promotion.jpg"
+    alt="promotion"
+    title="logo promotion">
 
- 
-
-
-    <article>Contact<article></article>
-
+    
+    <h1>Contact</h1>
+    <hr>
     <form action="destination.php" method="post" id="formulaire contact">
 
      <fieldset><br><legend>vos coordonnées</legend>
@@ -45,14 +51,14 @@
 
 
         <br><label for="name">Email : </label><input type="text" nom="Ville" id="Ville" <br>
-        <tfoot>
+        
         </fieldset>
 
         <p>
         <fieldset>
 
          <legend>votre demande</legend>
-         <br>Sujet* : <br><select name="multiple">
+         Sujet* : <br><select name="multiple">
            <option>Veuillez selectionner un sujet</option>
            <option Value="Mes commandes">Mes commandes</option>
            <option Value="Question sur un produit">Question sur un produit</option>
@@ -61,20 +67,26 @@
 
        </select> 
 
-        <br><label for="nom">Votre question* : </label><input type="text" nom="nom" id="nom"></ul><br>
+        <br><label for="nom">Votre question* : </label><input type="text" nom="nom" id="nom"></ul></fieldset><br>
         </fieldset></p>
         
         <input type="checkbox" name="Couleur1" checked> J'accepte le traitement informatique de ce formulaire
+       <br>
+        <input type="submit" name="Envoyer" value="Envoyer">
+        <input type="reset" name="Annuler"  value="Annuler">
+       </br> 
+    </form>
+       <hr>
 
-         
-            <ol>
-                <ul>
-                <li><a href="index.html" title="Jarditou Page d'Accueil HTML">Mentions légales</a></li>
-                <li><section><a href="index.html" title="Jarditou Page d'Accueil HTML">Horaires</a></section></li>
-                <li><section><a href="index.html" title="Jarditou Page d'Accueil HTML">Plan du site</a></section></li>
-                </ul>
-            </ol>
-        </tfoot>
+        <footer> 
+            <ul>
+                <a href="index.html" title="Jarditou Page d'Accueil HTML">Mentions légales</a>
+
+                <a href="index.html" title="Jarditou Page d'Accueil HTML">Horaires</a>
+
+                <a href="index.html" title="Jarditou Page d'Accueil HTML">Plan du site</a>
+            </ul>
+        </footer>
 
 
 

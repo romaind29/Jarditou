@@ -1,0 +1,104 @@
+.entete {
+    display : flex ;
+}
+
+.logo {
+    height : 50 pt ;
+    width : auto ;
+}
+
+
+
+.slogan {
+    font-size : 100 px ;
+    flex : 1 ;
+    font-size : 1.4rem ;
+    text-align : center ;
+    margin-bottom : 1%;
+}
+
+nav, footer {
+    background-color : black;
+    text-indent : 10pt ;
+    padding : 15pt ;
+    display : flex ;
+}
+
+a {
+    color :white ;
+}
+
+.promo {
+    width : 100% ;
+    height : auto ;
+    max-height : 100% ;
+    display : block ;
+}
+
+
+
+/* separation en deux colonnes */
+
+/* colonne de droit */
+aside {
+background-color : silver;
+width : 100% ;
+height : auto ;
+display : block ;
+}
+
+/* colonne de gauche */
+.col {
+    display :flex ;
+    margin-top : 10pt;
+    margin-bottom : 10pt ;   
+    }
+
+html {
+    font-size : 100% ;
+}
+
+h1{
+font-size : 1.5rem;
+}
+
+h2 {
+font-size : 1.2rem;
+}
+
+
+p {
+font-size : 1rem;
+}
+
+
+
+@media only screen and (max-width: 768px) {
+    aside {
+        display : none;
+    } 
+    nav {
+        display : grid ;
+    }
+    html {
+        font-size : 90% ;
+    }
+    h1 {
+        font-size : 1.5rem;
+    }
+    h2 {
+        font-size : 1rem;
+    }
+    p {
+        font-size : 1rem;
+    }
+
+
+
+
+ 
+
+
+
+
+
